@@ -56,7 +56,7 @@ $ ->
       else
         if logo_pixel[ parseInt( _dot.y ) * canvas_width * 4 +
            _dot.x * 4 ] == 0
-          _dot.vel = 0.25
+          _dot.vel = 0.3
           canvasManager.drawDot _dot.x, _dot.y, "rgb(255, 255, 255)"
         else
           _dot.vel += ACC
